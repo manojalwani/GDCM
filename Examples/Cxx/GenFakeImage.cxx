@@ -18,6 +18,8 @@
 //#include "gdcmImageChangePhotometricInterpretation.h"
 
 /*
+
+ * this is my first test on GDCM
  * This example shows two things:
  * 1. How to create an image ex-nihilo
  * 2. How to use the gdcm.FileDerivation filter. This filter is meant to create "DERIVED" image
@@ -41,8 +43,8 @@ int main(int, char *[])
     for(int g = 0; g < 256; ++g)
       //for(int b = 0; b < 256; ++b)
       {
-      rgb[0] = r;
-      rgb[1] = g;
+      rgb[0] = g;
+      rgb[1] = r;
       rgb[1] = 128;
       rgb[2] = b;
       ybr[0] = r;
