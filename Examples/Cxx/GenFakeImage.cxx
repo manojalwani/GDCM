@@ -19,7 +19,7 @@
 
 /*
 
- * this is my first test on GDCM
+ * this is my first test on GDCM after learning git
  * This example shows two things:
  * 1. How to create an image ex-nihilo
  * 2. How to use the gdcm.FileDerivation filter. This filter is meant to create "DERIVED" image
